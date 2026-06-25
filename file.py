@@ -36,3 +36,9 @@ class Handler(BaseHTTPRequestHandler):
 
 
 HTTPServer(("localhost", 5000), Handler).serve_forever()
+
+# To test 
+# http://localhost:5000/add?a=5&b=3
+# http://localhost:5000/subtract?a=5&b=3
+# http://localhost:5000/multiply?a=5&b=3
+# http://localhost:5000/divide?a=5&b=3
