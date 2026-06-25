@@ -14,4 +14,5 @@ def calculate(op, a, b):
             return a / b
         else:
             raise ValueError("Cannot divide by zero")
-   
+    else:
+        raise ValueError("Invalid operation")
